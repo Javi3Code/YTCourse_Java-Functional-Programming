@@ -1,7 +1,7 @@
 # YTCourse_JavaFunctionalProgramming
 - Tutorial code uploaded to my youtube channel, *incomplete*.
 
-- Tutorial realizado en mi canal de Youtube <a href="https://www.youtube.com/channel/UC5xqFtQ9o3gNIGABG3s3Yyw">Jey Code</a>
+- Tutorial realizado en mi canal de Youtube <a href="https://youtube.com/playlist?list=PLjJ8HhsSfskiDEwgfyF9EznmrSyEukcJa">Jey Code</a>
   - Código incompleto respecto a los vídeo-tutoriales
 
 ## Tecnologías Utilizadas
