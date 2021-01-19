@@ -14,4 +14,4 @@
 - Librería <a href="https://github.com/Javi3Code/JeyCodeUtilitiesLib.git">JeyCodeUtilitiesLib</a>
 
 ## Tener en Cuenta
-***Los ejemplos usan datos de prueba serializados en ficheros, el objeto que gestiona la lectura o escritura de estos es PersistenceFileManager, pertecenece JeyCodeUtilitiesLib ***
+***Los ejemplos usan datos de prueba serializados en ficheros, el objeto que gestiona la lectura o escritura de estos es PersistenceFileManager, pertecenece JeyCodeUtilitiesLib***
