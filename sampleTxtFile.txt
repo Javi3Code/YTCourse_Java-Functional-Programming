@@ -1,0 +1,6 @@
+Este es un fichero para el ejemplo de 
+map y flatmap. Operaciones de transformación 
+en los Stream de java.
+Una vez se obtienen las líneas se pueden transformar,
+hacer búsquedas o lo que
+se os ocurra.
