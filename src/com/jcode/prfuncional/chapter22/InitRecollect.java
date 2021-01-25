@@ -1,6 +1,8 @@
 package com.jcode.prfuncional.chapter22;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.function.IntFunction;
 
 import com.jcode.prfuncional.pojos.Pet;
 
@@ -16,9 +18,24 @@ public final class InitRecollect
 
       public static void main(String[] args)
       {
+
+//          Collectors
+//          Collector
+            
             var manager = PersistenceFileManager.getInstance()
                                                 .file(fPathAll);
             List<Pet> lst = manager.loadData();
+
+            IntFunction<String[]> generator = size-> new String[size + size];
+//            IntFunction<String[]> generator = String[]::new;
+
+            String[] arr = lst.stream()
+                              .map(Pet::getOwner)
+                              .distinct()
+                              .toArray(generator);
+
+            System.out.println(Arrays.toString(arr));
+
       }
 
 }
