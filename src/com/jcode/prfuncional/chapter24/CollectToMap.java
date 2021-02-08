@@ -28,9 +28,9 @@ public final class CollectToMap
                                                 .file(fPathPet);
             lst = manager.loadData();
 
-//            simple();
+            simple();
 //            merge();
-            mergeSupp();
+//            mergeSupp();
 //            grouping();
 
       }

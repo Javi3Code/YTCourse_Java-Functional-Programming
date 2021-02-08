@@ -1,7 +1,9 @@
 package com.jcode.prfuncional.pojos;
 
-import java.util.List;
 import java.util.Objects;
+import java.util.Set;
+
+import com.google.gson.annotations.SerializedName;
 
 public abstract class Pet extends Animal
 {
@@ -144,8 +146,8 @@ public abstract class Pet extends Animal
       {
             this.character = character;
       }
-
-      public abstract List<String> getSkills();
+      @SerializedName("skills")
+      public abstract Set<String> getSkills();
 
       public String specialSkill()
       {

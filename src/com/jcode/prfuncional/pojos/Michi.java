@@ -1,14 +1,13 @@
 package com.jcode.prfuncional.pojos;
 
-import java.util.List;
+import java.util.Set;
 
 public class Michi extends Pet
 {
 
       private static final long serialVersionUID = 1L;
-      private static String[] skillSet = {"Arañar","Moverse silenciosamente","Dormir","Saltar","Trepar",
-                                          "Perseguir cualquier cosa inanimada"};
-      private static List<String> lstOfSkills = List.of(skillSet);
+      private static Set<String> setOfSkills = Set.of("Arañar","Moverse silenciosamente","Dormir","Saltar","Trepar",
+                                                      "Perseguir cualquier cosa inanimada");
 
       public Michi(float weight,float length,int age,String petName,String owner,Character character,String specialSkill,Gender gender)
       {
@@ -16,10 +15,10 @@ public class Michi extends Pet
       }
 
       @Override
-      public List<String> getSkills()
+      public Set<String> getSkills()
       {
 
-            return lstOfSkills;
+            return setOfSkills;
       }
 
       @Override
