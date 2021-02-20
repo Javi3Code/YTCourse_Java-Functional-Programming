@@ -18,4 +18,33 @@ public final class PetDto
             character = pet.getCharacter();
       }
 
+      @Override
+      public String toString()
+      {
+            StringBuilder builder = new StringBuilder();
+            builder.append("PetDto [");
+            if (name != null)
+            {
+                  builder.append("name=")
+                         .append(name)
+                         .append(", ");
+            }
+            if (owner != null)
+            {
+                  builder.append("owner=")
+                         .append(owner)
+                         .append(", ");
+            }
+            builder.append("age=")
+                   .append(age)
+                   .append(", ");
+            if (character != null)
+            {
+                  builder.append("character=")
+                         .append(character);
+            }
+            builder.append("]");
+            return builder.toString();
+      }
+
 }
